@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@pablo-bagliere/turbo",
+  "name": "@pablo_bagliere/turbo",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",

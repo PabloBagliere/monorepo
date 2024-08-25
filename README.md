@@ -17,10 +17,10 @@ This Turborepo includes the following:
 ### Apps and Packages
 
 - `docs`: A placeholder documentation site powered by [Next.js](https://nextjs.org/)
-- `@pablo-bagliere/core`: core React components
-- `@pablo-bagliere/utils`: shared React utilities
-- `@pablo-bagliere/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
-- `@pablo-bagliere/eslint-config`: ESLint preset
+- `@pablo_bagliere/core`: core React components
+- `@pablo_bagliere/utils`: shared React utilities
+- `@pablo_bagliere/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
+- `@pablo_bagliere/eslint-config`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -42,7 +42,7 @@ This Turborepo has some additional tools already setup for you:
 
 ### Changing the npm organization scope
 
-The npm organization scope for this design system starter is `@pablo-bagliere`. To change this, it's a bit manual at the moment, but you'll need to do the following:
+The npm organization scope for this design system starter is `@pablo_bagliere`. To change this, it's a bit manual at the moment, but you'll need to do the following:
 
 - Rename folders in `packages/*` to replace `acme` with your desired scope
 - Search and replace `acme` with your desired scope

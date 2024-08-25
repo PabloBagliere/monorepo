@@ -1,4 +1,4 @@
-# @pablo-bagliere/eslint-config-base
+# @pablo_bagliere/eslint-config-base
 
 ## 0.0.1
 

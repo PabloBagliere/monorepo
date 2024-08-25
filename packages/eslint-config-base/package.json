@@ -1,5 +1,5 @@
 {
-  "name": "@pablo-bagliere/eslint-config-base",
+  "name": "@pablo_bagliere/eslint-config-base",
   "version": "0.0.1",
   "private": false,
   "main": "index.js",
