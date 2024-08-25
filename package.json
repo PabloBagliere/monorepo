@@ -1,24 +1,25 @@
 {
   "private": true,
+  "name": "@pablo-bagliere/turbo",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "clean": "turbo clean && rm -rf node_modules",
+    "clean": "turbo clean && git clean -xdf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo build --filter=docs^... && changeset publish"
+    "release": "turbo build && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "turbo": "^2.0.14"
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "turbo": "^2.0.14",
+    "@turbo/gen": "2.0.14"
   },
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.8.0",
   "engines": {
-    "node": ">=18"
-  },
-  "name": "with-changesets"
+    "node": ">=20"
+  }
 }
