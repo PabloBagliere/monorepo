@@ -3,17 +3,17 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
   extends: [
-    "eslint:recommended",
-    "prettier",
-    "plugin:prettier/recommended",
-    "plugin:promise/recommended",
-    "plugin:sonarjs/recommended",
-    "plugin:n/recommended",
+    'eslint:recommended',
+    'prettier',
+    'plugin:prettier/recommended',
+    'plugin:promise/recommended',
+    'plugin:sonarjs/recommended',
+    'plugin:n/recommended',
   ],
-  plugins: ["prettier", "import", "promise", "sonarjs"],
+  plugins: ['prettier', 'import', 'promise', 'sonarjs'],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: "module",
+    sourceType: 'module',
   },
   env: {
     browser: true,
@@ -21,20 +21,21 @@ module.exports = {
     node: true,
   },
   rules: {
-    "no-console": "warn",
-    "prettier/prettier": [
-      "error",
+    'no-console': 'warn',
+    'prettier/prettier': [
+      'error',
       {
-        "printWidth": 120,
-        "trailingComma": "all",
-        "tabWidth": 2,
-        "semi": true,
-        "singleQuote": true,
-        "bracketSpacing": true,
-        "arrowParens": "always",
-        "endOfLine":"auto"
-      }
+        printWidth: 120,
+        tabWidth: 2,
+        useTabs: false,
+        semi: true,
+        singleQuote: true,
+        trailingComma: 'all',
+        bracketSpacing: true,
+        arrowParens: 'always',
+        endOfLine: 'auto',
+      },
     ],
-    "import/order": ["warn", {"newlines-between": "always"}],
+    'import/order': ['warn', { 'newlines-between': 'always' }],
   },
 };

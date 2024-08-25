@@ -1,5 +1,11 @@
 # @pablo_bagliere/eslint-config-base
 
+## 0.0.3
+
+### Patch Changes
+
+- cambios
+
 ## 0.0.2
 
 ### Patch Changes
