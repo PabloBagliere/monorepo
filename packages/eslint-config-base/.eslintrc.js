@@ -11,6 +11,7 @@ module.exports = {
     'plugin:n/recommended',
   ],
   plugins: ['prettier', 'import', 'promise', 'sonarjs'],
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
