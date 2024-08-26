@@ -1,0 +1,50 @@
+{
+  "name": "quasar-project",
+  "version": "0.0.2",
+  "description": "A Quasar Project",
+  "productName": "Quasar App",
+  "author": "Pablo Bagliere <pablo.bagliere2@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "clean": "git clean -xdf .cache .turbo node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "core-js": "^3.6.5",
+    "quasar": "^1.0.0",
+    "@pablo_bagliere/quasar-component-test": "workspace:*"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "eslint": "catalog:",
+    "eslint-webpack-plugin": "^2.0.0",
+    "prettier": "catalog:",
+    "@quasar/app": "^2.0.0",
+    "@pablo_bagliere/eslint-config-base": "workspace:*",
+    "@pablo_bagliere/eslint-config-vue": "0.0.2"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@pablo_bagliere/eslint-config-base",
+      "@pablo_bagliere/eslint-config-vue"
+    ]
+  }
+}

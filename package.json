@@ -18,7 +18,8 @@
     "postinstall": "pnpm lint:ws",
     "release": "turbo build && changeset publish",
     "typecheck": "turbo run typecheck",
-    "version-packages": "changeset version"
+    "version-packages": "changeset version",
+    "ci:publish": "pnpm publish -r"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",

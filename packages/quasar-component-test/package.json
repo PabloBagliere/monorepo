@@ -1,0 +1,30 @@
+{
+  "name": "@pablo_bagliere/quasar-component-test",
+  "version": "0.0.2",
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "git clean -xdf .cache .turbo node_modules",
+    "format": "prettier --check . --ignore-path ../../.gitignore",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "quasar": "^1.0.0",
+    "eslint": "catalog:",
+    "prettier": "catalog:",
+    "@pablo_bagliere/eslint-config-base": "0.0.4",
+    "@pablo_bagliere/eslint-config-vue": "0.0.2"
+  },
+  "peerDependencies": {
+    "quasar": "^1.0.0",
+    "vue": "^2.6.12"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@pablo_bagliere/eslint-config-base",
+      "@pablo_bagliere/eslint-config-vue"
+    ]
+  }
+}
